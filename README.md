@@ -21,7 +21,7 @@ The system:
 ---
 
 ## 🏗 Architecture
-![System Architecture](assets/architecture.png)
+![System Architecture](assets/architechture.png)
 ### 1️⃣ Web Tier (`server.py`)
 - FastAPI-based HTTP server
 - Handles `POST /` requests on port 8000
