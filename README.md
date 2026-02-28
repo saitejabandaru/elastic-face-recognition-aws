@@ -21,7 +21,7 @@ The system:
 ---
 
 ## 🏗 Architecture
-![System Architecture diagram showing three-tier AWS elastic face recognition pipeline with web tier receiving HTTP requests, application tier performing PyTorch inference on EC2 instances, and autoscaling controller managing queue-based scaling from 0 to 15 instances, connected via S3 buckets and SQS queues](assets/architecture.png)
+![System Architecture](assets/architecture.png)
 ### 1️⃣ Web Tier (`server.py`)
 - FastAPI-based HTTP server
 - Handles `POST /` requests on port 8000
